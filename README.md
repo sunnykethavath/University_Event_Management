@@ -10,7 +10,7 @@ The University Event Management System is a Java-based application built using t
 ## Models
 ### Event Entity
 - **Attributes:**
-  - `id (Long)`: Unique identifier for each event.
+  - `id (Integer)`: Unique identifier for each event.
   - `name (String)`: Name of the event.
   - `location (String)`: Location of the event.
   - `date (Date)`: Date of the event.
@@ -19,7 +19,7 @@ The University Event Management System is a Java-based application built using t
 
 ### Student Entity
 - **Attributes:**
-  - `id (Long)`: Unique identifier for each student.
+  - `id (Integer)`: Unique identifier for each student.
   - `firstName (String)`: First name of the student (matches pattern: First letter capitalized).
   - `lastName (String)`: Last name of the student (matches pattern: First letter capitalized).
   - `age (Integer)`: Age of the student (between 18 and 25).
